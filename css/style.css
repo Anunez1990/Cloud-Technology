@@ -97,7 +97,14 @@ h1, h2, h3, h4, h5, h6 {
     text-transform: uppercase;
     display: inline;
 }
+.menu{
+    width: 100%;
+    padding-left: 5rem;
+}
 
+.icon-color{
+    color: #5e5e5e;
+}
 
 /*--------------------------------------------------------------
 # Summary Section
@@ -247,6 +254,10 @@ h1, h2, h3, h4, h5, h6 {
     }
 }
 
+.home-image{
+    width: 130%;
+    text-align: center;
+}
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
@@ -429,7 +440,7 @@ section {
 # Main Content
 --------------------------------------------------------------*/
 .left-container{
-    margin-top: 3rem;
+    margin-top: 9rem;
     width: 75%;
 }
 
@@ -539,6 +550,10 @@ section {
     margin-bottom: 30px;
 }
 
+#footer .footer-top .footer-info{
+    padding-right: 0rem;
+}
+
 #footer .footer-top .footer-contact h3 {
     font-size: 28px;
     margin: 0 0 10px 0;
@@ -567,7 +582,6 @@ section {
 
 #footer .footer-top .footer-links {
     margin-bottom: 30px;
-    padding-left: 10%;
 }
 
 #footer .footer-top .footer-links ul {
@@ -656,5 +670,9 @@ section {
     }
     #footer .credits {
         padding-top: 4px;
+    }
+
+    .menu{
+        background: white;
     }
 }
