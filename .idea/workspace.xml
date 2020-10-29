@@ -1,16 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5fab6192-afc7-4a04-9da1-3db7a818bc36" name="Default Changelist" comment="Feature: Creating main structure">
-      <change afterPath="$PROJECT_DIR$/pictures/cloud.png" afterDir="false" />
+    <list default="true" id="5fab6192-afc7-4a04-9da1-3db7a818bc36" name="Default Changelist" comment="Feature: Setting up pages structure">
+      <change afterPath="$PROJECT_DIR$/pages/Docker_tutorial.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/data_center.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/kubernetes.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/vitualization.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_center.html" beforeDir="false" afterPath="$PROJECT_DIR$/data_center.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -22,6 +32,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/pictures" />
@@ -46,7 +57,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603833142088</updated>
-      <workItem from="1603833143267" duration="20016000" />
+      <workItem from="1603833143267" duration="20905000" />
     </task>
     <task id="LOCAL-00001" summary="Feature: Creating main structure">
       <created>1603842071815</created>
@@ -55,7 +66,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603842071815</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Feature: Setting up pages structure">
+      <created>1604003088547</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1604003088547</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -63,6 +81,13 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Feature: Creating main structure" />
-    <option name="LAST_COMMIT_MESSAGE" value="Feature: Creating main structure" />
+    <MESSAGE value="Feature: Setting up pages structure" />
+    <option name="LAST_COMMIT_MESSAGE" value="Feature: Setting up pages structure" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="437" y="164" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604003430070">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="437" y="164" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1604003430070" />
   </component>
 </project>
