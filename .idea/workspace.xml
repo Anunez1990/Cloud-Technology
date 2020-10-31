@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5fab6192-afc7-4a04-9da1-3db7a818bc36" name="Default Changelist" comment="Feature: Setting up pages structure">
-      <change afterPath="$PROJECT_DIR$/pages/Docker_tutorial.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/data_center.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/kubernetes.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/vitualization.html" afterDir="false" />
+    <list default="true" id="5fab6192-afc7-4a04-9da1-3db7a818bc36" name="Default Changelist" comment="Bug: Fixing path for project's pages">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_center.html" beforeDir="false" afterPath="$PROJECT_DIR$/data_center.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/Docker_tutorial.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/Docker_tutorial.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/data_center.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/data_center.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/kubernetes.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/kubernetes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/vitualization.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/vitualization.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +55,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603833142088</updated>
-      <workItem from="1603833143267" duration="20905000" />
+      <workItem from="1603833143267" duration="21616000" />
     </task>
     <task id="LOCAL-00001" summary="Feature: Creating main structure">
       <created>1603842071815</created>
@@ -73,7 +71,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604003088547</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Bug: Fixing path for project's pages">
+      <created>1604004040214</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1604004040214</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -82,7 +87,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Feature: Creating main structure" />
     <MESSAGE value="Feature: Setting up pages structure" />
-    <option name="LAST_COMMIT_MESSAGE" value="Feature: Setting up pages structure" />
+    <MESSAGE value="Bug: Fixing path for project's pages" />
+    <option name="LAST_COMMIT_MESSAGE" value="Bug: Fixing path for project's pages" />
   </component>
   <component name="WindowStateProjectService">
     <state x="437" y="164" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604003430070">
