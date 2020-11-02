@@ -29,7 +29,7 @@
     <div class="container ">
 
         <nav class="navbar navbar-expand-lg navbar-light   ">
-            <a class="navbar-brand" href="../index.html"> <i class="fas fa-globe"></i> <h3 class="logo">Cloud Technology</h3></a>
+            <a class="navbar-brand" href="../index.html"> <i class="fas fa-cloud"></i> <h3 class="logo">Cloud Technology</h3></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon icon-color "></span>
             </button>
@@ -37,15 +37,15 @@
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav menu">
-                    <li class="nav-item active">
-                        <a class="nav-link " href="../index.html">Home <span class="sr-only">(current)</span></a>
+                    <li class="nav-item ">
+                        <a class="nav-link " href="../index.html">Home </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link " href="../about.html">About</a>
                     </li>
-                    <li class="nav-item dropdown">
+                    <li class="nav-item dropdown active">
                         <a class="nav-link dropdown-toggle " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Cloud Technology
+                            Docker Tutorial <span class="sr-only">(current)</span>
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <a class="dropdown-item " href="virtualization.html">Virtualization vs Containerization</a>
@@ -75,11 +75,10 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
-                <h1>Cloud Technology</h1>
-                <h2 class="text-white">In this website, you will know about Cloud and how technologies such as Docker and Kubernetes are being used, also we will talk about data centers and their importance in Cloud Technology. </h2>
+                <h1>Docker Tutorial</h1>
+                <h2 class="text-white">On this website, we will create a Docker tutorial. Where we will walk you through the process for setting up and create a docker repository and store an image of this project served using apache. </h2>
                 <div class="d-lg-flex">
                     <a href="#main-content" class="btn-get-started scrollto">Get Started</a>
-                    <a href="https://www.youtube.com/watch?v=x3c1ih2NJEg" class="venobox btn-watch-video" data-vbtype="video" data-autoplay="true"> <i class="far fa-play-circle"></i>  Watch Video </a>
                 </div>
             </div>
             <div class="col-lg-6 order-1 order-lg-2 introduction-img" data-aos="zoom-in" data-aos-delay="200">
@@ -100,8 +99,8 @@
 
                 <div class="content">
 
-                    <h3><strong>The Cloud</strong></h3>
-                    <p >October 29th, 2020 by <a href="#">Alex V. Nunez</a></p>
+                    <h3><strong>Docker Tutorial</strong></h3>
+                    <p >November 1st, 2020 by <a href="#">Alex V. Nunez</a></p>
                     <hr style="border:solid 1px; color: skyblue; width: 100%; ">
 
                 </div>
@@ -109,26 +108,56 @@
                 <div class="accordion-list">
                     <ul>
                         <li>
-                            <p>
-                                In this website we will discuss how the internet works along with its technology, protocols, IP addressing and many more concepts that make the internet the most powerful median of communication ever developed.
-                            </p>
-
-                            <p>
-                                In this section, we will briefly introduce the different topics that we will cover over the website such as:
-
-                            </p>
-
+                            <p>We will divide this tutorial into a series of different steps, which are going to be described below: </p>
                         </li>
-
                         <li>
-                            <span> 1. Domain names and ICANN </span>
-                            <div id="accordion-list-1"  data-parent=".accordion-list">
-                                <p>
-                                    In this page, we will discuss domain names its functionality, and its role inside the internet, also we will talk about ICANN, the organization in charge of accreditation of registrars to sell domain names.
 
-                                </p>
-                                <a href="project_pages/domain.html" class="reading mt-2 font-italic">Continue reading...</a>
+                            <div class="row about-extra">
+                                <div class="col-lg-7 order-1 order-lg-2" data-aos="fade-left">
+                                    <img id="picture1" src="../pictures/hello-world.png" class="img-fluid " alt="">
+                                </div>
+
+                                <div class="col-lg-5 pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-right">
+                                    <h4>1. Install Docker Engine</h4>
+                                    <p>
+                                        In this tutorial, we will install Docker on Ubuntu 20.04.<br><br>
+                                        To install Docker on Ubuntu we have to type the following command in the terminal.
+                                    </p>
+
+                                    <p> <strong><em>sudo apt install docker.io</em></strong></p>
+
+                                    <p>
+                                        Now we have to enable Docker through the following command:<br>
+                                    </p>
+
+                                    <p> <strong><em>sudo systemctl enable --now docker</em></strong></p>
+
+                                    <p>
+                                        Finally we can check if Docker is correctly working running the following command:<br>
+                                    </p>
+
+                                    <p> <strong><em>sudo docker run hello-world</em></strong></p>
+
+                                    <p>
+                                        You can check steps described above in the following video:
+                                        <a href="https://www.youtube.com/watch?v=aMKUuaga85A">Docker installation</a>
+                                    </p>
+                                </div>
                             </div>
+
+                            <div class="row about-extra mt-4">
+                                <div class="col-lg-7" data-aos="fade-right">
+                                    <img src="../pictures/picture2.jpg" class="img-fluid" alt="">
+                                </div>
+                                <div class="col-lg-5 pt-5 pt-lg-0" data-aos="fade-left">
+                                    <h4> 2. Pull an Ubuntu image from Dockerhub.</h4>
+                                    <p>
+                                        After logging into Docker pull the ubuntu image using the command below:
+                                    </p>
+                                    <p> <strong><em>sudo docker pull ubuntu</em></strong></p>
+                                </div>
+                            </div>
+
                         </li>
                     </ul>
                 </div>
