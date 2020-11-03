@@ -477,6 +477,29 @@ section {
     transition: 0.3s;
 }
 
+#author2-pic{
+    width: 20%;
+    border-radius: 45%;
+    vertical-align: middle;
+    float: left;
+}
+
+
+#author2 .social-icons a {
+    font-size: 18px;
+    display: inline-block;
+    background: #47b2e4;
+    color: #fff;
+    line-height: 1;
+    padding: 8px 0;
+    margin-right: 10px;
+    border-radius: 50%;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.3s;
+}
+
 /*--------------------------------------------------------------
 # Tutorial
 --------------------------------------------------------------*/
