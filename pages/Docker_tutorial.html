@@ -155,9 +155,112 @@
                                         After logging into Docker pull the ubuntu image using the command below:
                                     </p>
                                     <p> <strong><em>sudo docker pull ubuntu</em></strong></p>
+                                    <p>
+                                        Now we are going to be able to check the existing Docker images that we have in our computer using the command:
+                                    </p>
+                                    <p> <strong><em>sudo docker images</em></strong></p>
+
+                                    <div>
+                                        We can find more information about this process in this link: <a href="https://docs.docker.com/engine/reference/commandline/pull/">Pull Ubuntu images</a>
+                                    </div>
                                 </div>
                             </div>
 
+                            <div class="row about-extra mt-4">
+                                <div class="col-lg-7 order-1 order-lg-2" data-aos="fade-left">
+                                    <img id="picture3" src="../pictures/picture3.png" class="img-fluid " alt="">
+                                </div>
+
+                            <div class="col-lg-5 pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-right">
+                                <h4>3. How To Commit Changes To A Docker Image</h4>
+                                <p>
+                                    In this step we have to run the Ubuntu image to start a Docker container and then log into this Ubuntu container using the following command:<br><br>
+                                </p>
+
+                                <p> <strong><em>sudo docker run -it ubuntu:latest /bin/bash</em></strong></p>
+
+                                <p>
+                                    From the picture, we can identify the container ID, which is “5c175da4b439” <br>
+                                </p>
+                            </div>
+                            </div>
+
+                            <div class="row about-extra mt-4">
+                                <div class="col-lg-7 order-1 order-lg-2" data-aos="fade-left">
+                                    <img id="picture4" src="../pictures/picture4.png" class="img-fluid " alt="">
+                                </div>
+
+                                <div class="col-lg-5 pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-right">
+                                    <p>
+                                        Now we are going to update our Ubuntu container to be able to install more applications through the following command:<br><br>
+                                    </p>
+
+                                    <p> <strong><em>apt-get update</em></strong></p>
+                                    <p>
+                                        Once we have updated our operative system we are going to be able to install our Apache server using the following command: <br><br>
+                                    </p>
+
+                                    <p> <strong><em>apt-get install apache2</em></strong></p>
+
+                                    <p>
+                                        Also we have to install Vim text editor using the command: <br><br>
+                                    </p>
+
+                                    <p> <strong><em>apt-get install vim</em></strong></p>
+
+                                </div>
+                            </div>
+
+                            <div class="row about-extra mt-4">
+                                <div class="col-lg-7 order-1 order-lg-2" data-aos="fade-left">
+                                    <img id="picture5" src="../pictures/picture5.png" class="img-fluid " alt="">
+                                </div>
+
+                                <div class="col-lg-5 pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-right">
+                                    <p>
+                                        Now we have check our container using the command below:<br><br>
+                                    </p>
+
+                                    <p> <strong><em>docker ps -a</em></strong></p>
+                                    <p>
+                                       After we check the container we are going to create a new Docker image using the following command:<br><br>
+                                    </p>
+
+                                    <p> <strong><em>docker commit "Container ID" ubuntu-my_apache2</em></strong></p>
+
+                                    <p>
+                                        Finally we are going to check if everything we did is ok checking the new images we add using the command: <br><br>
+                                    </p>
+
+                                    <p> <strong><em>docker images</em></strong></p>
+                                    <div>
+                                        You can find more information about this process in the following link: <a href="https://phoenixnap.com/kb/how-to-commit-changes-to-docker-image">Docker Commits</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row about-extra mt-4">
+                                <div class="col-lg-7" data-aos="fade-right">
+                                    <img id="picture7" src="../pictures/picture7.png" class="img-fluid" alt="">
+                                </div>
+                                <div class="col-lg-5 pt-5 pt-lg-0" data-aos="fade-left">
+                                    <h4> 4. Share Data Between a Docker Container and Host.</h4>
+                                    <p>
+                                        Once we have set all the components of our Ubuntu operative system and our server.
+                                        We should share information between our computer and our Docker container so we can storage the files for our project in this directory to be served by our apache server.
+                                        To do this we have to use the following command:
+                                    </p>
+                                    <p> <strong><em>sudo docker run -it -p 127.0.0.1:80:80 -v "Host directory":/var/www/html ubuntu-my_apache2 /bin/bash</em></strong></p>
+                                    <p>
+                                        Once we have created this link between this two directories, we have to copy all the files of our project in one of these directories to be served by our apache server.
+                                    </p>
+                                    <p>
+                                        Finally we have to start the server to be able to have access to our project using the following command:
+                                    </p>
+                                    <p> <strong><em>/etc/init.d/apache2 restart</em></strong></p>
+
+                                </div>
+                            </div>
                         </li>
                     </ul>
                 </div>
