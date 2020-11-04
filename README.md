@@ -9,5 +9,5 @@ Links:
 * GITHUB: 
 https://an74njit.github.io/Cloud_Technology/
 
-* AFS
+* AFS:
 https://web.njit.edu/~an74/project3/
