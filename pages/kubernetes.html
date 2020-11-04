@@ -45,7 +45,7 @@
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Cloud Technology
+                            Kubernetes vs Docker
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <a class="dropdown-item " href="virtualization.html">Virtualization vs Containerization</a>
@@ -75,8 +75,8 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
-                <h1>Cloud Technology</h1>
-                <h2 class="text-white">In this website, you will know about Cloud and how technologies such as Docker and Kubernetes are being used, also we will talk about data centers and their importance in Cloud Technology. </h2>
+                <h1>Kubernetes vs Docker</h1>
+                <h2 class="text-white">In this website, we will compare two of the biggest containerization technologies: Kubernetes an Docker, and look at their strengths and weaknesses </h2>
                 <div class="d-lg-flex">
                     <a href="#main-content" class="btn-get-started scrollto">Get Started</a>
                     <a href="https://www.youtube.com/watch?v=x3c1ih2NJEg" class="venobox btn-watch-video" data-vbtype="video" data-autoplay="true"> <i class="far fa-play-circle"></i>  Watch Video </a>
@@ -100,8 +100,8 @@
 
                 <div class="content">
 
-                    <h3><strong>The Cloud</strong></h3>
-                    <p >October 29th, 2020 by <a href="#">Alex V. Nunez</a></p>
+                    <h3><strong>Kubernetes vs Docker</strong></h3>
+                    <p >October 29th, 2020 by <a href="#">Aayush Kumar</a></p>
                     <hr style="border:solid 1px; color: skyblue; width: 100%; ">
 
                 </div>
@@ -110,24 +110,49 @@
                     <ul>
                         <li>
                             <p>
-                                In this website we will discuss how the internet works along with its technology, protocols, IP addressing and many more concepts that make the internet the most powerful median of communication ever developed.
+                                This website will be divided into 3 parts. Firstly defining what containers are, and then describing the two main containers: Docker and  Kubernetes
                             </p>
-
-                            <p>
-                                In this section, we will briefly introduce the different topics that we will cover over the website such as:
-
-                            </p>
-
                         </li>
 
                         <li>
-                            <span> 1. Domain names and ICANN </span>
+                            <span> Containers </span>
                             <div id="accordion-list-1"  data-parent=".accordion-list">
                                 <p>
-                                    In this page, we will discuss domain names its functionality, and its role inside the internet, also we will talk about ICANN, the organization in charge of accreditation of registrars to sell domain names.
-
+                                    Containers are where applications are ran in isolated user space in an operating system, known as containerization. Each container has its own system, like Linux or Windows, and under each container, multiple applications are run. The container shares the kernel of the host OS with other containers.
                                 </p>
-                                <a href="project_pages/domain.html" class="reading mt-2 font-italic">Continue reading...</a>
+                                <p>
+                                    Both Docker and Kubernetes are containerization technologies
+                                </p>
+                            </div>
+                        </li>
+
+                        <li>
+                            <span> Docker </span>
+                            <div id="accordion-list-1"  data-parent=".accordion-list">
+                                <p>
+                                    Docker is a platform that provides applications the ability to package and run in containers. Containers is an isolated environment where many containers can run at the same time on a given host. Docker can significantly reduce the delay between writing code and running it in production.
+                                </p>
+                                <p>
+                                    Docker benefits both the developers as well as the system administrators. Developers can write code without worrying about the system that it will ultimately be running on. There are also thousands of programs already designed to run in a Docker container.For system administrators, it reduces the number of systems needed because of its small footprint
+                                </p>
+                            </div>
+                        </li>
+
+                        <li>
+                            <span> Kubernetes </span>
+                            <div id="accordion-list-1"  data-parent=".accordion-list">
+                                <p>
+                                    Kubernetes is a platform for working with and managing containers in general, including docker. Meaning that it helps manage applications (which are made up of thousands of containers) in different environments(physical/virtual machines or even cloud environment). Kubernetes gives you means to do deployment, monitoring, and an easy way to scale.
+                                </p>
+                                <p>
+                                    <b>Strengths and Weaknesses</b>
+                                </p>
+                                <p>
+                                    Strengths of Kubernetes are: it can improve productivity, and the solutions that it provides are feasible for many years as kubernetes ecosystem is growing incredibly fast and new products supporting different needs are being released everyday. It also helps to make the application run more stable by rapid updates to change the software without downtime.
+                                </p>
+                                <p>
+                                    Few drawbacks of Kubernetes are: it can overdo for simple applications as it is a powerful texhnology that allows to run software in cloud environment at a large scale efficiently. This is beneficial for high computing resource needs, but is not ment for smaller requirements. Due to its complexity it can reduce productivity at certain times.
+                                </p>
                             </div>
                         </li>
                     </ul>
