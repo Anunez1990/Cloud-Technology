@@ -7,7 +7,6 @@ Created by:
 Links:
 
 * GITHUB: 
-https://an74njit.github.io/Cloud_Technology/
+https://alexn2307.github.io/Cloud-Technology/
 
-* AFS:
-https://web.njit.edu/~an74/project3/
+
